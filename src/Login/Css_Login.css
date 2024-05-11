@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: red; */
+}
+
+.container {
+    margin: auto;
+    margin-top: 10%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: white;
+   
+    width: 30rem;
+    border-radius: 10px;
+    background-color: rgb(152, 216, 244);
+}
+
+.container h2{
+    /* margin-top: 15px; */
+    text-align: center;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.form .phone input{
+    width: 255px;
+    height: 30px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.terms-con {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 20rem;
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.check-box {
+    margin-right: 3px;
+    padding: 5px;
+}
+
+.form .create-act{
+    line-height: 10px;
+    width: 255px;
+    height: 30px;
+    margin-bottom: 15px;
+    background-color:  #55c2da;
+    border: none;
+    border-radius: 10px;
+    color: black;
+}
+
+.form .email {
+    line-height: 10px;
+    width: 255px;
+    height: 30px;
+    margin-bottom: 15px;
+    background-color: #5adbb5;
+    border: none;
+    border-radius: 10px;
+}
+#login{
+   padding-top: 20px;
+}
+
+.form .google {
+    line-height: 10px;
+    width: 255px;
+    height: 30px;
+    margin-bottom: 15px;
+    background-color: #ED0800;
+    border: none;
+    border-radius: 10px;
+}
+
+.form .create-account {
+    line-height: 10px;
+    width: 150px;
+    height: 30px;
+    margin-bottom: 15px;
+    background-color: #4681f4;
+    border: none;
+    border-radius: 10px;
+}

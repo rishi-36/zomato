@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: red; */
+}
+
+.signup-container {
+    margin: auto;
+    margin-top: 10%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: white;
+    height: 30rem;
+    width: 30rem;
+    border-radius: 10px;
+    background-color: rgb(152, 216, 244);
+}
+
+.signup-container h2{
+    /* margin-top: 15px; */
+    /* text-align: center; */
+}
+
+.signup-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.form .phone input{
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.form .submit-btn{
+    line-height: 10px;
+    width: 255px;
+    height: 30px;
+    margin-bottom: 15px;
+    background-color:  #55c2da;
+    border: none;
+    border-radius: 10px;
+    color: black;
+}
+
+.form .create-act {
+    font-size: 17px;
+    width: 300px;
+    height: 40px;
+    margin-top: 15px;
+    background-color: #4681f4;
+    border: none;
+    border-radius: 10px;
+}
+
+.form .google {
+    font-size: 17px;
+    width: 300px;
+    height: 40px;
+    margin-top: 15px;
+    /* background-color: #4681f4; */
+    background-color: #ED0800;
+    border: none;
+    border-radius: 10px;
+}
+
